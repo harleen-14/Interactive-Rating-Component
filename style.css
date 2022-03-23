@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+*{
+    margin: 0;
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+}
+.center-div{
+    height: 350px;
+    width: 350px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 25px;
+    padding: 30px;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+.center-div h1{
+    color: hsl(0, 0%, 100%);
+}
+.center-div p{
+    color: #959eac;
+
+}
+
+.star{
+    background-color: rgba(124,135,152,0.2);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 7px;
+    padding-left: 5px; */
+    border-radius: 50%;
+}
+.center-div p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.center-div h1{
+    font-weight: 700;
+}
+.num{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rating-btn{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(124,135,152,0.2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.submit-btn{
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    outline: none;
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+.submit-btn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+.rating-btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.card-content-2{
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    
+}
+.card-content-2 h1{
+    color: hsl(0, 0%, 100%);
+    margin-top: 15px;
+}
+.card-content-2 .text{
+    color: #959eac;
+    width: 95%;
+    margin-top: 5px;
+}
+#thank-you{
+    margin-top: 30px;
+}
+.rating{
+    margin-top: 15px;
+    margin-left: 70px;
+    padding-top: 3px;
+    text-align: center;
+    background-color:rgba(124,135,152,0.2);
+    width:220px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.rating p{
+    color: hsl(25, 97%, 53%);
+    padding: 6px 15px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.hide{
+    display: none;
+}
+.active {
+    background-color: #959eac;
+  }
